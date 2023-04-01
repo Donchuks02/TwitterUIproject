@@ -1,0 +1,400 @@
+body {
+    margin-top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.maincon {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.firstdiv {
+    width: 200px;
+    height: 65%;
+    top: 0;
+    position: sticky;
+    margin-right: 50px;
+    margin-left: 70px;
+}
+
+.midclass {
+    width: 600px;
+    border-left: 1px solid rgb(236, 234, 234);
+    border-right: 1px solid rgb(236, 234, 234);
+}
+
+.lastdiv {
+    width: 400px;
+    height: 65px;
+    top: 0;
+    position: sticky;
+    margin-right: 50px;
+}
+
+header {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.midclass header {
+    height: 100px;
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(32, 136, 248);
+    border: none;
+    width: 60px;
+}
+
+.firstseticon li img {
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.firstseticon li {
+    list-style: none;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    font-size: 15px;
+    font-size: 20px;
+    width: 180px;
+}
+
+.firstseticon li:hover {
+    background-color: rgb(236, 234, 234);
+    border-radius: 20px;
+}
+
+.firstseticon {
+    justify-content: baseline;
+    padding-left: 0;
+}
+
+button {
+    height: 45px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(86, 164, 246);
+    border: 0;
+    margin-left: 25px;
+}
+
+button:hover {
+    background-color: rgb(32, 136, 248);
+}
+
+.details {
+    margin-top: 70px;
+    display: flex;
+    align-content: center;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.details img {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.details div p {
+    text-align: left;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: small;
+}
+
+.details span img {
+    height: 15px;
+    width: 15px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+
+/*code bellow for middle container*/
+
+.midclass header {
+    position: sticky;
+    top: 0;
+    margin-left: 3px;
+    margin-top: 10px;
+    background-color: white;
+    height: 90px;
+}
+
+.homelink {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.homelink a {
+    text-decoration: none;
+    color: rgb(49, 48, 48);
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.homelink a:hover {
+    color: black;
+    font-weight: bold;
+    background-color: rgb(236, 234, 234);
+}
+
+.whats span img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+.whats input {
+    width: 400px;
+    border: none;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.whats {
+    display: flex;
+    padding-top: 10px;
+}
+
+.blueicon {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 50px;
+    height: 50px;
+}
+
+.blueicon div img {
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+.blueicon div img:hover {
+    background-color: rgb(194, 227, 239);
+    border-radius: 20px;
+}
+
+.blueicon p button {
+    height: 30px;
+    width: 60px;
+    background-color: rgb(32, 136, 248);
+    text-align: center;
+    margin-left: 100px;
+    font-size: small;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+#show {
+    text-align: center;
+    margin-top: 0;
+    color: rgb(32, 136, 248);
+    font-size: small;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+.Aa {
+    display: flex;
+    margin-top: 10px;
+}
+
+.Aa img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.Aa div p {
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Aa div p span {
+    color: gray;
+}
+
+#Aaicon {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    align-content: baseline;
+    padding-right: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+#Aaicon div img {
+    height: 18px;
+    width: 18px;
+}
+
+#Aaicon div span {
+    font-size: small;
+    float: right;
+    margin-left: 10px;
+}
+
+#Aaicon div:hover {
+    background-color: rgb(217, 217, 247);
+    border-radius: 20px;
+}
+
+#Bbicon {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    align-content: baseline;
+    padding-right: 30px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+}
+
+#Bbicon div img {
+    height: 18px;
+    width: 18px;
+}
+
+#Bbicon div:hover {
+    background-color: rgb(217, 217, 247);
+    border-radius: 20px;
+}
+
+#Bbicon div span {
+    font-size: small;
+    float: right;
+    margin-left: 10px;
+}
+
+.Bbiconimage img {
+    height: 300px;
+    width: 580px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+figure img {
+    height: 300px;
+    width: 520px;
+    border: 1px solid lightgrey;
+}
+
+figure figcaption {
+    border: 1px solid lightgrey;
+    border-top: none;
+    padding-left: 5px;
+}
+
+figure span {
+    color: rgb(178, 172, 172);
+}
+
+.loadmore {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.loadmore button {
+    width: 90px;
+    height: 30px;
+    font-size: small;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    list-style: none;
+    background-color: gray;
+}
+
+.Search {
+    display: flex;
+    margin-top: 20px;
+    background-color: rgb(236, 234, 234);
+    height: 40px;
+    border-radius: 20px;
+}
+
+.Search img {
+    height: 18px;
+    width: 18px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.Search input {
+    border: none;
+    float: right;
+    font-size: 15px;
+    background-color: rgb(236, 234, 234);
+    margin-top: 10px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.trends {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(236, 234, 234);
+    border-radius: 10px;
+}
+
+.trend1 p {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: small;
+}
+
+.trend1:hover {
+    background-color: rgb(228, 230, 231);
+}
+
+.message {
+    background-color: aliceblue;
+    height: 50px;
+    text-align: left;
+    border-radius: 10px;
+    width: 410px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.message header {
+    margin-left: 5px;
+    padding-top: 10px;
+}
+
+.message img {
+    height: 15px;
+    width: 15px;
+    float: right;
+    padding-right: 30px;
+}
